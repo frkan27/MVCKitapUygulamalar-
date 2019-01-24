@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+
+    string postmesaji = "";
+    if(IsPost)
+    {
+        postmesaji = "postişlemi gerçekleşti";
+    }
+}
+
+<h1>AnaSayfa</h1>
+@Html.ActionLink("Hakkı","About","Home")
+
+
+
+<form method="post">
+    <input type="submit" value="Calıstır" />
+    <br />
+    @postmesaji
+</form>
+@{ 
+    string sanalyol = Href("market.jpg");
+    string resimyolu = Server.MapPath(sanalyol);
+}
+<img src="@resimyolu" />
+
+<script lang="javascrt">
+    alert("butona tıkladın");
+</script>

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.PartialKullanımı", "4.P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.ViewStartKullanimi", "5.ViewStartKullanimi\5.ViewStartKullanimi.csproj", "{01B988DD-B3DD-47EF-B026-44A2031CF9BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.ViewData-ViewBag", "6.ViewData\6.ViewData-ViewBag.csproj", "{DF44AB5B-9CB3-478E-A6E6-6D30E92E9E96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{01B988DD-B3DD-47EF-B026-44A2031CF9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B988DD-B3DD-47EF-B026-44A2031CF9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B988DD-B3DD-47EF-B026-44A2031CF9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF44AB5B-9CB3-478E-A6E6-6D30E92E9E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF44AB5B-9CB3-478E-A6E6-6D30E92E9E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF44AB5B-9CB3-478E-A6E6-6D30E92E9E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF44AB5B-9CB3-478E-A6E6-6D30E92E9E96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

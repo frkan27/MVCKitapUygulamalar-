@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.ViewStartKullanimi", "5.V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.ViewData-ViewBag", "6.ViewData\6.ViewData-ViewBag.csproj", "{DF44AB5B-9CB3-478E-A6E6-6D30E92E9E96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.MVC-CSS Kullanımı", "7.MVC-CSS Kullanımı\7.MVC-CSS Kullanımı.csproj", "{1BD0B60B-D0E3-4B00-8D0D-2396B1A14EEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{DF44AB5B-9CB3-478E-A6E6-6D30E92E9E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF44AB5B-9CB3-478E-A6E6-6D30E92E9E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF44AB5B-9CB3-478E-A6E6-6D30E92E9E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD0B60B-D0E3-4B00-8D0D-2396B1A14EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD0B60B-D0E3-4B00-8D0D-2396B1A14EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD0B60B-D0E3-4B00-8D0D-2396B1A14EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD0B60B-D0E3-4B00-8D0D-2396B1A14EEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

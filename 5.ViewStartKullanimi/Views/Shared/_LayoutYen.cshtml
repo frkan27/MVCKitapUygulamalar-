@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+       @Html.ActionLink("AnaSayfa","AnaSayfa","Home")
+        @Html.ActionLink("İletişim","Iletisim","Home")
+    </div>
+    <div style="width:600px;height:300px;background-color:blue;color:darkred;font:40px;">
+        @RenderSection("Icerik")
+    </div>
+    <div style="clear:both;"></div>
+    <div style="width:600px;height:50px;background-color:red;color:yellow;font:16px;">
+        Tüm Hakları Saklıdır |İstanbul
+    </div>
+</body>
+</html>

@@ -45,5 +45,24 @@ namespace _1.ModelTanımlama.Controllers
             duzenlenOgrenci.TC = ogrenci.TC;
             return RedirectToAction("Listele");
         }
+
+        public ActionResult Delete(int Id)
+        {
+            var ogrenci = OgrenciVeri.Ogrenciler.Where(x => x.Id == Id).FirstOrDefault();
+            return View(ogrenci);
+        }
+        [HttpPost]
+        public ActionResult Delete(Ogrenci ogrenci)
+        {
+            Ogrenci sil = OgrenciVeri.Ogrenciler.Where(x => x.Id == ogrenci.Id).FirstOrDefault();
+            OgrenciVeri.Ogrenciler.Remove(ogrenci);
+            return RedirectToAction("Listele");
+        }
+        public ActionResult Details(int Id)
+        {
+            var ogrenci = OgrenciVeri.Ogrenciler.Where(x => x.Id == Id).FirstOrDefault();
+
+            return View(ogrenci);
+        }
     }
 }

@@ -23,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Model", "2.Model", "{B524
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.ModelTanımlama", "1.ModelTanımlama\1.ModelTanımlama.csproj", "{FC7B9E00-D838-494B-90AB-1CB9BEFCF870}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.ModelValidation", "3.ModelValidation", "{E7B57B07-D48D-43A4-B97C-050DFE67339C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributesKullanımı", "AttributesKullanımı\AttributesKullanımı.csproj", "{17DB1ADB-0C81-4AFA-8FFD-F9E3D2BD246D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,10 @@ Global
 		{FC7B9E00-D838-494B-90AB-1CB9BEFCF870}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC7B9E00-D838-494B-90AB-1CB9BEFCF870}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC7B9E00-D838-494B-90AB-1CB9BEFCF870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17DB1ADB-0C81-4AFA-8FFD-F9E3D2BD246D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DB1ADB-0C81-4AFA-8FFD-F9E3D2BD246D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DB1ADB-0C81-4AFA-8FFD-F9E3D2BD246D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DB1ADB-0C81-4AFA-8FFD-F9E3D2BD246D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +82,7 @@ Global
 		{DF44AB5B-9CB3-478E-A6E6-6D30E92E9E96} = {254FB766-82E6-4A2B-A23F-657181582E40}
 		{1BD0B60B-D0E3-4B00-8D0D-2396B1A14EEA} = {254FB766-82E6-4A2B-A23F-657181582E40}
 		{FC7B9E00-D838-494B-90AB-1CB9BEFCF870} = {B5249E1C-30CD-4503-B492-A629F22F84FC}
+		{17DB1ADB-0C81-4AFA-8FFD-F9E3D2BD246D} = {E7B57B07-D48D-43A4-B97C-050DFE67339C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D5F70B8-46A6-4854-B4A8-5051AA5A2272}

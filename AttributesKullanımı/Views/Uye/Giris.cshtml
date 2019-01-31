@@ -1,0 +1,42 @@
+﻿@model AttributesKullanımı.Models.UyeGiris
+
+@{
+                /**/
+
+                ViewBag.Title = "Giris";
+}
+
+<h2>Giris</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class=" form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(model => model.KullaniciAdi, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.KullaniciAdi)
+                @Html.ValidationMessageFor(model => model.KullaniciAdi)
+            </div>
+        </div>
+    </div>
+    <div class=" form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(model => model.Sifre, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Sifre)
+                @Html.ValidationMessageFor(model => model.Sifre)
+            </div>
+        </div>
+    </div>
+    <div class=" form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(model => model.Sifre2, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Sifre2)
+                @Html.ValidationMessageFor(model => model.Sifre2)
+            </div>
+        </div>
+    </div>
+}
+
+

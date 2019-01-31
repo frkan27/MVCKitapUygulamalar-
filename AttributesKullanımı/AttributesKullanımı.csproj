@@ -128,10 +128,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KisiController.cs" />
+    <Compile Include="Controllers\UyeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Kisi.cs" />
+    <Compile Include="Models\UyeGiris.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -173,6 +175,7 @@
     <Content Include="Views\Kisi\Create.cshtml" />
     <Content Include="Views\Kisi\Update.cshtml" />
     <Content Include="Views\Kisi\Detail.cshtml" />
+    <Content Include="Views\Uye\Giris.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

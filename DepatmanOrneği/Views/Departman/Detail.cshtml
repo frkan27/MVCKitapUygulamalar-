@@ -1,0 +1,27 @@
+﻿@model DepatmanOrneği.ViewModels.DepartmanDetayViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detail</title>
+</head>
+<body>
+    <div>
+        <h1>Departman detay sayfası</h1>
+        <h2>@Model.Departman.Ad</h2>
+        <h2>@Model.Departman.Id</h2>
+        <ul>
+            @foreach(var personel in Model.Personeller)
+            {
+                <li>@personel.Ad</li>
+            }
+        </ul>
+        
+    </div>
+</body>
+</html>

@@ -45,8 +45,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tema", "Tema\Tema.csproj", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.Departman Uygulaması", "8.Departman Uygulaması", "{1A7D6059-FC3D-4C45-850D-F3482C026024}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartPersonel", "DepartPersonel\DepartPersonel.csproj", "{5392CAE5-0FB4-4926-9DE3-E3F72B6DBED5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,10 +103,6 @@ Global
 		{1BBF080B-F5AF-40E8-BCD7-AFE64FB23A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BBF080B-F5AF-40E8-BCD7-AFE64FB23A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BBF080B-F5AF-40E8-BCD7-AFE64FB23A1E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5392CAE5-0FB4-4926-9DE3-E3F72B6DBED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5392CAE5-0FB4-4926-9DE3-E3F72B6DBED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5392CAE5-0FB4-4926-9DE3-E3F72B6DBED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5392CAE5-0FB4-4926-9DE3-E3F72B6DBED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,7 +121,6 @@ Global
 		{D9EC5BB8-06EA-4B0A-BC34-74C376561C5D} = {660E2A6C-B237-49FC-8623-1632C85F1217}
 		{B183E142-31EF-4932-B001-856FE2F7DAA2} = {81791A7F-A0EC-4406-9C06-0B56426F187C}
 		{1BBF080B-F5AF-40E8-BCD7-AFE64FB23A1E} = {85475E91-11A3-435D-B21F-FFF22F9C2CEC}
-		{5392CAE5-0FB4-4926-9DE3-E3F72B6DBED5} = {1A7D6059-FC3D-4C45-850D-F3482C026024}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D5F70B8-46A6-4854-B4A8-5051AA5A2272}

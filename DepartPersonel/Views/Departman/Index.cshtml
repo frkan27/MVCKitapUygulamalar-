@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_LayoutAna.cshtml";
 }
-
+<a class="btn btn-success" href="/Departman/Yeni">Yeni Departman</a>
 <h2>Departman Listesi</h2>
 <table class="table table-bordered">
     <thead>
@@ -16,15 +16,15 @@
         </tr>
     </thead>
     <tbody>
-        @foreach(var departman in Model)
-        {
+        @for (int i = 0; i < Model.Count; i++)
+        { var current = Model[i];
         <tr>
-            <td>@departman.Id</td>
-            <td>@departman.Ad</td>
-            <td><a class="btn btn-primary" href="/Departman/Guncelle/@departman.Id">Güncelle</a></td>
-            <td><a class="btn btn-warning" href="/Departman/Sil/@departman.Id">Sil</a></td>
+            <th>@(i + 1)</th>
+            <td>@current.Id</td>
+            <td>@current.Ad</td>
+            <td><a class="btn btn-primary" href="/Departman/Guncelle/@current.Id">Güncelle</a></td>
+            <td><a class="btn btn-warning" href="/Departman/Sil/@current.Id">Sil</a></td>
         </tr>
         }
     </tbody>
 </table>
-

@@ -1,0 +1,22 @@
+﻿@model DepartPersonel.Models.Departman
+@{
+    ViewBag.Title = "Yeni";
+    Layout = "~/Views/Shared/_LayoutAna.cshtml";
+}
+
+@*<form method="post"action="">
+        <div class="form-group">
+            <label for="txtCategoryName">Departman Adı</label>
+            <input type="text" class="form-control" id="txtCategoryName" placeholder="Departman Adı">
+        </div>
+        <button type="submit" class="btn btn-success">Ekle</button>
+    </form>*@
+
+@using (Html.BeginForm("Yeni", "Departman", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Ad)
+        @Html.TextBoxFor(m => m.Ad, new { @class = "form form-control" })
+    </div>
+    <button type="submit" class="btn btn-success">Ekle</button>
+}

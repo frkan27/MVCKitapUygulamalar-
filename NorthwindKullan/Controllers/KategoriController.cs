@@ -50,7 +50,14 @@ namespace NorthwindKullan.Controllers
             
             db.SaveChanges();
             return View(data);
-
+        }
+        
+        public ActionResult Sil(int id)
+        {
+            var data = db.Categories.Find(id);
+            db.Categories.Remove(data);
+            db.SaveChanges();
+            return RedirectToAction("Index");
 
         }
     }

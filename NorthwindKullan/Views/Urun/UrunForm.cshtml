@@ -1,0 +1,48 @@
+﻿@model NorthwindKullan.ViewModels.UrunViewModel
+
+@{
+    ViewBag.Title = "UrunForm";
+    Layout = "~/Views/Shared/_LayoutAna.cshtml";
+}
+
+<h2>Ürün Formu</h2>
+
+@using (Html.BeginForm("Kaydet", "Urun", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(x => x.Product.ProductName, new { @class = "col-md-3 control-label" })
+        <div class="col-md-7">
+            @Html.TextBoxFor(x => x.Product.ProductName, new { @class = "form-control", placeholder = "Ürün Adı" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Product.CategoryID, new { @class = "col-md-3 control-label" })
+        <div class="col-md-7">
+            @Html.DropDownListFor(x => x.Product.CategoryID, new SelectList(Model.Categories,"CategoryID","CategoryName"),"Kategori Seçiniz", new { @class = "form-control"})
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Product.UnitPrice, new { @class = "col-md-3 control-label" })
+        <div class="col-md-7">
+            @Html.TextBoxFor(x => x.Product.UnitPrice, new { @class = "form-control", placeholder = "Fiyat" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Product.QuantityPerUnit, new { @class = "col-md-3 control-label" })
+        <div class="col-md-7">
+            @Html.TextBoxFor(x => x.Product.QuantityPerUnit, new { @class = "form-control", placeholder = "Adet" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Product.UnitsInStock, new { @class = "col-md-3 control-label" })
+        <div class="col-md-7">
+            @Html.TextBoxFor(x => x.Product.UnitsInStock, new { @class = "form-control", placeholder = "Stok" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-4 col-sm-6">
+            <button type="submit" class="btn btn-info btn-block">Ürün Ekle</button>
+        </div>
+    </div>
+}
+

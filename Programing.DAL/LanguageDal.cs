@@ -41,5 +41,6 @@ namespace Programing.DAL
             db.languages.Remove(SilincekId);
             db.SaveChanges();
         }
+        
     }
 }

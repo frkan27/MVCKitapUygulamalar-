@@ -57,6 +57,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProgramingApp", "Programing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programing.DAL", "Programing.DAL\Programing.DAL.csproj", "{0576A947-0C47-4F40-B959-668155B1AE1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.API", "Application.API\Application.API.csproj", "{B16090C4-7FD1-4D9E-8214-2D2A233CE618}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{0576A947-0C47-4F40-B959-668155B1AE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0576A947-0C47-4F40-B959-668155B1AE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0576A947-0C47-4F40-B959-668155B1AE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16090C4-7FD1-4D9E-8214-2D2A233CE618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16090C4-7FD1-4D9E-8214-2D2A233CE618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16090C4-7FD1-4D9E-8214-2D2A233CE618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16090C4-7FD1-4D9E-8214-2D2A233CE618}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +156,7 @@ Global
 		{614622EF-ACDD-4677-88D1-05C8BDCAD78E} = {64B4A7E6-C0E6-4569-A7D3-0B4F511C0114}
 		{0B42B7D5-3912-452C-821D-F13AE184D1B2} = {C29892CD-981B-4577-80F5-A175299F7076}
 		{0576A947-0C47-4F40-B959-668155B1AE1B} = {0B42B7D5-3912-452C-821D-F13AE184D1B2}
+		{B16090C4-7FD1-4D9E-8214-2D2A233CE618} = {0B42B7D5-3912-452C-821D-F13AE184D1B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D5F70B8-46A6-4854-B4A8-5051AA5A2272}
